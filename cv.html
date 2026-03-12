@@ -1,27 +1,59 @@
 <!DOCTYPE HTML>
 <html>
-<head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-    <title>CV - Diego Cerretti</title>
-    <link rel="stylesheet" href="assets/css/main.css" />
-    <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-    <style>
-        .cv-section { margin: 2em 0; }
-        .cv-section h3 { border-bottom: 2px solid #e1dcd5; padding-bottom: 0.5em; }
-        .cv-section ul { list-style: none; padding: 0; }
-        .cv-section li { margin-bottom: 0.75em; }
-    </style>
-</head>
-<body class="is-preload">
-    <div id="wrapper" class="fade-in">
-        <div id="intro">
-            <h1>Diego Cerretti</h1>
-            <p>Curriculum Vitae</p>
-            <ul class="actions">
-                <li><a href="#main" class="button icon solid solo fa-arrow-down scrolly">Continue</a></li>
-            </ul>
-        </div>
+	<head>
+		<title>Diego Cerretti's Webpage</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<style>
+			.posts .image.fit img {
+				height: 300px; /* Set a fixed height for both images */
+				object-fit: cover; /* Crop images to fit the specified height */
+				width: 100%;
+			}
+	
+			.posts article:nth-of-type(2) .image.fit img {
+				object-position: 90% 90%; /* Adjust the cropping position for the second image */
+			}
+			.intro-photo {
+			  margin: 1.5em 0;
+			  text-align: center;
+			}
+			
+			.your-photo {
+			  width: 30%;
+			  height: 30%;
+			  object-fit: cover;
+			  border-radius: 50%;
+			  border: 2px solid white;
+			  box-shadow: 0 1px 6px rgba(0,0,0,0.15);
+			}
+		</style>
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<div id="wrapper" class="fade-in">
+				<div id="intro">
+				  <h1>Diego Cerretti</h1>
+				<p>Curriculum Vitae</p>
+				  <div class="intro-photo">
+				    <img 
+				      src="images/THBIphoto.jpg" 
+				      alt="Diego Cerretti" 
+				      class="your-photo"
+				    />
+				  </div>
+				
+				  <ul class="actions">
+				    <li>
+				      <li><a href="#main" class="button icon solid solo fa-arrow-down scrolly">Continue</a></li>
+				        Continue
+				      </a>
+				    </li>
+				  </ul>
+				</div>
+
         <nav id="nav">
             <ul class="links">
                 <li class="active"><a href="cv.html">My CV</a></li>
